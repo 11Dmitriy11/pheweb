@@ -1,0 +1,25 @@
+<div class="panel">
+  Example queries (GRCh37):
+  <a href="{{ url_for('.pheno_page', phenocode='ldlp') }}" class="btn btn-link"
+    >LDL</a>
+  <a href="{{ url_for('.gene_page', genename='APOE') }}" class="btn btn-link"
+    >APOE</a>
+  <a
+    href="{{ url_for('.variant_page', query='19-45412079-C-T') }}"
+    class="btn btn-link"
+    >rs7412</a>
+  <a
+    href="{{ url_for('.variant_page', query='19-45412079-C-T') }}"
+    class="btn btn-link"
+    >19-45412079-C-T</a>
+</div>
+
+<div class="well">
+  <p>
+    This website releases genome-wide association study (GWAS) results for a cohort of 4145 individuals from Russia (465 endpoints). 
+    BioBank Russia (BBRU) is a prospective biobank, managed by <a href="http://www.almazovcentre.ru/?lang=en" target="_blank"
+    >V. A. Almazov National Medical Research Center</a>.
+    For detailed description of the cohort and analysis, please refer to [biorxiv link].
+    For term of use of the resource, see <a id="auto-btn" href="#msa-popup1">disclaimer</a>.
+  </p>
+</div>

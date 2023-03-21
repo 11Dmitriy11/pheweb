@@ -1,0 +1,40 @@
+<div class="page-header">
+    <h1>About This PheWeb</h1>
+</div>
+
+<p>
+    This site was built with PheWeb (<a href="https://github.com/statgen/pheweb/" , target="_blank">original repository:
+    version {{ config.PHEWEB_VERSION }}</a>, <a href="TODO" ,
+    target="_blank">our repository</a>). All positions are on GRCh{{ config.GRCH_BUILD_NUMBER }}.
+</p>
+
+<div class="panel panel-default">
+    <div class="panel-heading">Team members</div>
+    <div class="panel-body">
+        <p>
+        List all co-authors as they will appear in the manuscript...
+        </p>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">Contact</div>
+    <div class="panel-body">
+        <p>BioBank Russia: <a href="mailto:artomov@broadinstitute.org" , target="_blank">Mykyta Artomov</a></p>
+        <p>Technical inquiry: <a href="mailto:dusoltse@broadinstitute.org" , target="_blank">Dmitry Usoltsev</a>, <a href="mailto:nkolosov@broadinstitute.org" , target="_blank">Nikita Kolosov</a></p>
+    </div>
+</div>
+
+<div class="thumbnails">
+    <a href="http://www.almazovcentre.ru/?lang=en" target="_blank" class="thumbnail">
+        <img src="{{ url_for('.static', filename='images/Almazov.png') }}" alt="BioBank Russia">
+    </a>
+    <a href="https://www.orenburgsmu.com" target="_blank" class="thumbnail">
+        <img src="{{ url_for('.static', filename='images/OrenburgStateMedicalUniversity.png') }}" alt="OSMU">
+    </a>
+    <a href="https://samsmu.ru/eng/" target="_blank" class="thumbnail">
+        <img src="{{ url_for('.static', filename='images/SamaraStateMedicalUniversity.png') }}" alt="SSMU">
+    </a>
+    <a href="https://cardio63.ru/index.php/medical-tourism" target="_blank" class="thumbnail">
+        <img src="{{ url_for('.static', filename='images/SamaraRegionalCardiologyDispensary.jpeg') }}" alt="SRCD">
+</div>
